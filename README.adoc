@@ -127,7 +127,7 @@ public class Employee implements Serializable {
 [source,java]
 --
 // create a document to populate data
-Document doc = createDocument("firstName", "John")
+Document doc = Document.createDocument("firstName", "John")
      .put("lastName", "Doe")
      .put("birthDay", new Date())
      .put("data", new byte[] {1, 2, 3})
